@@ -1,0 +1,8 @@
+# OCR / image processing
+paddleocr
+paddlepaddle
+opencv-python
+numpy
+
+# Structured extraction / validation
+pydantic>=2

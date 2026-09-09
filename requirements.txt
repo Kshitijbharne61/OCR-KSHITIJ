@@ -1,8 +1,9 @@
-# OCR / image processing
+# Recommended runtime: Python 3.12.x
+# PaddleOCR 3.x local inference requires PaddlePaddle >= 3.0.
+# Install PaddlePaddle from the official CPU wheel index on Windows:
+# python -m pip install paddlepaddle==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+
 paddleocr
-paddlepaddle
 opencv-python
 numpy
-
-# Structured extraction / validation
 pydantic>=2

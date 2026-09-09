@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # SIH26034 end-to-end pipeline
-# input_images -> PaddleOCR -> output_text -> keyword/regex extraction -> compliance_reports
+# input_images -> PaddleOCR -> output_text -> keyword/regex extraction -> compliance -> evidence
 
 ROOT = Path(__file__).resolve().parent
 
@@ -31,6 +31,13 @@ def run_compliance():
     compliance_engine.main()
 
 
+def run_evidence():
+    print(f"\n{'=' * 64}\nSTEP 4: EVIDENCE LINKING\n{'=' * 64}")
+    import evidence
+    evidence.ROOT = ROOT
+    evidence.main()
+
+
 def main():
     input_images = ROOT / "input_images"
     output_text = ROOT / "output_text"
@@ -49,6 +56,7 @@ def main():
     run_ocr()
     run_extraction()
     run_compliance()
+    run_evidence()
 
     print(f"\n{'=' * 64}\nPIPELINE COMPLETED SUCCESSFULLY\n{'=' * 64}")
     print(f"OCR text       : {output_text}")

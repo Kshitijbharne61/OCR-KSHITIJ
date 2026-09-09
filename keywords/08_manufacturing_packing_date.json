@@ -1,0 +1,1 @@
+{"field":"manufacturing_packing_date","keywords":["date of manufacture","date of packing","manufactured on","manufactured date","packed on","packing date","mfg","mfd","pkd","pkg"],"patterns":["\\b\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4}\\b","\\b\\d{1,2}[/-]\\d{2,4}\\b","\\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[\\s/-]+\\d{2,4}\\b"]}

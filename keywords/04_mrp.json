@@ -1,1 +1,0 @@
-{"field":"mrp","keywords":["mrp","m.r.p","maximum retail price","max retail price"],"patterns":["(?:MRP|M\\.R\\.P|MAXIMUM RETAIL PRICE|MAX RETAIL PRICE)\\s*[:\\-]?\\s*(?:₹|Rs\\.?|INR)?\\s*[\\d,]+(?:\\.\\d{1,2})?"]}

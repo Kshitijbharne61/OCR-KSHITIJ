@@ -1,1 +1,0 @@
-{"field":"net_quantity","keywords":["net quantity","net qty","net weight","net wt","net volume","contents"],"patterns":["\\b\\d+(?:\\.\\d+)?\\s*(?:mg|g|kg|ml|cl|l|litre|liter|litres|liters|pcs|pieces|nos|units?)\\b"]}
